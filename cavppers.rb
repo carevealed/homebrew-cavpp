@@ -11,6 +11,7 @@ class Cavppers < Formula
 
   def install
      bin.install 'makeprestarget'
+     bin.install 'makeaccesstarget'
      bin.install 'cavpperfunctions'
      bin.install 'verifymedia'
   end
