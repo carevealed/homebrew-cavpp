@@ -8,6 +8,7 @@ class Cavppers < Formula
   head 'https://github.com/dericed/cavppers.git'
 
   depends_on 'ffmpeg'
+  depends_on 'mediainfo'
 
   def install
      bin.install 'makeprestarget'
