@@ -2,8 +2,8 @@ require 'formula'
 
 class Cavppers < Formula
   homepage 'https://github.com/cavpp/cavppers'
-  url 'https://github.com/cavpp/cavppers/archive/cavppers_v0.5.1.zip'
-  sha256 'd48b6cbfd05883fff29603d41fe08e66030460cab5dada4791547563fb5be35b'
+  url 'https://github.com/cavpp/cavppers/archive/cavppers_v0.5.2.zip'
+  sha256 'd5e02b9ca5a03011d8c97d60c3cf43f7bed3a5b47fa4d2fc00a436094c2e1096'
   
   head 'https://github.com/cavpp/cavppers.git'
 
