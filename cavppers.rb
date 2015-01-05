@@ -7,7 +7,7 @@ class Cavppers < Formula
   
   head 'https://github.com/cavpp/cavppers.git'
 
-  depends_on 'ffmpeg'
+  depends_on 'ffmpeg' => [ 'with-ffplay', 'with-openjpeg', 'with-libass', 'with-freetype' , 'with-faac' ]
   depends_on 'mediainfo'
 
   def install
