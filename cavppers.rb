@@ -3,7 +3,8 @@ require 'formula'
 class Cavppers < Formula
   homepage 'https://github.com/cavpp/cavppers'
   url 'https://github.com/cavpp/cavppers/archive/cavppers_v0.5.5.tar.gz'
-  sha256 'b51f7320520a3792e835bba30fdb0dd93016c11a626e6d53a0e0e84e920b1e0e'
+  sha256 'af14819c14d1cc787a1df757d37404f8b166cd393001b4b924a0b0a6586b0e79'
+  revision 1
   
   head 'https://github.com/cavpp/cavppers.git'
 
