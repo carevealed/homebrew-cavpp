@@ -2,10 +2,8 @@ require 'formula'
 
 class Cavppers < Formula
   homepage 'https://github.com/cavpp/cavppers'
-  url 'https://github.com/cavpp/cavppers/archive/cavppers_v0.5.5.tar.gz'
-  sha256 'af14819c14d1cc787a1df757d37404f8b166cd393001b4b924a0b0a6586b0e79'
-  revision 1
-  
+  url 'https://github.com/cavpp/cavppers/archive/cavppers_v0.6.tar.gz'
+  sha256 '994453e50c2e49507e540d1672565b28c9c1d13c0ea687fd3a94ee32ec3f7f67'
   head 'https://github.com/cavpp/cavppers.git'
 
   depends_on 'ffmpeg' => [ 'with-openjpeg', 'with-libass', 'with-freetype' ]
@@ -15,6 +13,10 @@ class Cavppers < Formula
 
   def install
      bin.install 'csv2pbcore.xsl'
+     bin.install 'csv2dublincore.xsl'
+     bin.install 'csv2pbcore_instantiation.xsl'
+     bin.install 'insertinstantiation2pbcorepart.xsl'
+     bin.install 'insertinstantiationpart2instantiation.xsl'
      bin.install 'pbcorethat'
      bin.install 'makeprestarget'
      bin.install 'makeaccesstarget'
