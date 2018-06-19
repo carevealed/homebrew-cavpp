@@ -2,8 +2,8 @@ require 'formula'
 
 class Cavppers < Formula
   homepage 'https://github.com/cavpp/cavppers'
-  url 'https://github.com/cavpp/cavppers/archive/cavppers_v0.6.1.tar.gz'
-  sha256 '4ed910b5a34dffc5570ae4ac387d8c4c04cbcb4e42357a7cc6ebea91e3102f86'
+  url 'https://github.com/cavpp/cavppers/archive/cavppers_v0.7.tar.gz'
+  sha256 'c2b94d5b2cc32eda1514483893c39e43585ad3acda250b45cc75514c9b61763f'
   head 'https://github.com/cavpp/cavppers.git'
 
   depends_on 'ffmpeg' => [ 'with-openjpeg', 'with-libass', 'with-freetype' ]
